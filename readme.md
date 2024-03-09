@@ -2,10 +2,6 @@ read me:
 
 Thank you for downlaoding!
 
-You may edit but please credit author
-
-
-
 
 HOW TO USE:
 
