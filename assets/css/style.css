@@ -1,0 +1,310 @@
+/* desktop adjustments */
+@media only screen and (min-width: 768px) {
+    .login-container {
+        width: 100% !important;
+        margin: auto !important;
+        margin-top: 150px !important;
+        height: 50% !important;
+        display: flex; /* Voeg flexbox toe voor het positioneren van de linker- en rechtergebieden */
+    }
+
+    .login-content {
+        padding-top: 30px !important;
+        padding-bottom: 40px !important;
+    }
+    
+    /* Left Area */
+    .left-area {
+        flex: 1;
+        padding: 20px;
+    }
+
+    /* Right Area */
+    .right-area {
+        flex: 1;
+        padding: 20px;
+    }
+}
+
+/* Left Area */
+.left-area {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Right Area */
+.right-area {
+    flex: 1;
+    padding: 20px;
+}
+
+/* CSS voor het e-mailpictogram en de e-mailtekst */
+.email-wrapper {
+    display: inline-flex;
+    align-items: center; /* Verticaal centreren van items */
+    margin-top: 20px; /* Ruimte boven de email-wrapper */
+    border: 1px solid #9e9e9e; /* Lijn toevoegen rond de container */
+    border-radius: 100px; /* Afgeronde randen aan de zijkanten van de border */
+    padding: 5px; /* Ruimte binnen de container */
+}
+
+.email-icon {
+    height: 23px;
+    width: 23px;
+    margin-right: 10px; /* Ruimte tussen het pictogram en de tekst */
+}
+
+
+/* Increase the size of the checkbox and make it square */
+#showPasswordCheckbox {
+    transform: scale(1.2); /* Increase the size */
+    position: relative; /* Voeg relatieve positionering toe aan de checkbox */
+    left: 4px; /* Verplaats de checkbox naar rechts */
+    border-radius: 10; /* Schakel afgeronde randen uit om de checkbox vierkant te maken */
+}
+
+/* Style the label for the checkbox */
+label[for="showPasswordCheckbox"] {
+    font-size: 14px; /* Adjust the font size */
+    margin-left: 7px; /* Add some spacing to the left */
+}
+
+/* CSS om de tekst kleiner te maken */
+.voorwaarden {
+    font-size: 12px; /* Pas de gewenste lettergrootte aan */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Standaard achtergrondkleur voor de pagina */
+html, body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240 244 249); /* Verander de achtergrondkleur naar wens */
+}
+
+/* Witte achtergrond voor het inlogblokje */
+.login-container {
+    margin-top: 0px;
+    border-radius: 20px;
+    background-color: #ffffff; /* Houd het inlogblokje wit */
+    max-width: 1150px; /* Maximale breedte van het inlogblokje */
+    width: 80%; /* Aangepaste breedte van het inlogblokje */
+    margin-left: auto; /* Horizontaal centreren */
+    margin-right: auto; /* Horizontaal centreren */
+}
+
+/* Eventuele aanpassingen voor mobiele weergave */
+@media (max-width: 767px){
+  .login-container {
+    border: 1px solid #fff; /* Witte rand voor mobiele weergave */
+  }
+}
+
+.g-h1 {
+    padding-top: 15px;
+    font-size: 35px; /* Pas de gewenste grootte aan */
+}
+
+.g-h2 {
+    font-size: 16px;
+    margin-bottom: 0; /* Verwijder de standaardmarge onder de tekst */
+    align-self: baseline; /* Plaats de tekst op de baseline van het pictogram */
+}
+
+.g-input {
+    border-radius: 4px;
+    padding: 13px 15px;
+    border: 1px solid rgb(218, 220, 222);
+    width: 100%;
+    font-weight: 400;
+    height: 52px !important;
+    margin-top: 40px;
+}
+
+
+
+.g-input:focus {
+    outline: none !important;
+    border: 2px solid #1a73e8;
+    transition-timing-function: ease;
+}
+
+.g-input-invalid {
+    border: 1px solid red;
+}
+
+.g-input-invalid:focus {
+    border: 2px solid red;
+}
+
+
+.g-pass {
+    border-radius: 4px;
+    padding: 13px 15px;
+    border: 1px solid rgb(218, 220, 222);
+    width: 100%;
+    font-weight: 400;
+    height: 52px !important;
+    margin-top: 20%;
+}
+
+
+
+.g-pass:focus {
+    outline: none !important;
+    border: 2px solid #1a73e8;
+    transition-timing-function: ease;
+}
+
+.g-pass-invalid {
+    border: 1px solid red;
+}
+
+.g-pass-invalid:focus {
+    border: 2px solid red;
+}
+.login-content {
+    padding-top: 24px;
+}
+
+.g-legend {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1a73e8;
+    margin-top: 15px;
+	font-family: 'open-sans';
+	margin-left: 5px;
+}
+
+.create-account-text {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1a73e8;
+    margin-top: 20px;
+	font-family: 'open-sans';
+	margin-left: 45%;
+    margin-bottom: 2px;
+}
+
+.hpv {
+    margin-left: 50%;
+    font-size: 12px;
+}
+
+.text-with-icon {
+    position: relative; /* Behoud de relatieve positionering voor de container */
+    clear: both;
+    margin-top: 20px; /* Ruimte boven de tekst met het pictogram */
+    text-align: center; /* Centreer de tekst en het pictogram */
+    width: 100%; /* Zorg ervoor dat het de volledige breedte van de container inneemt */
+}
+
+.icon {
+    height: 16px; /* Aangepaste hoogte van het pictogram */
+    width: 16px; /* Aangepaste breedte van het pictogram */
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px; /* Relatieve marge aanpassen */
+    position: absolute; /* Zet de positie van het pictogram op absoluut om het binnen de container te plaatsen */
+    top: 50%; /* Plaats het pictogram in het midden van de container */
+    transform: translateY(-50%); /* Centreer verticaal */
+    left: 10px; /* Plaats het pictogram aan de linkerkant van de container */
+}
+
+.p {
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.login-priv {
+    margin-top: 32px;
+}
+
+.login-priv .g-legend {
+    margin-top: 0px !important;
+}
+
+.login-nav {
+    display: flex;
+    justify-content: space-between; /* Voeg deze regel toe */
+    margin-top: 32px;
+}
+
+.gbtn-primary {
+    background-color: #2f6dcf;
+    color: #ffffff;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 20px;
+}
+
+.gbtn-primary:hover {
+    background-color: #2655a0;
+    transition: 0.2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+}
+
+.gbtn-label {
+    color: white;
+    font-weight: 400;
+	font-family: 'open-sans';
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#logo {
+    margin: 0 auto;
+    display: table;
+    width: 75px;
+    float: none;
+    position: relative;
+}
+
+.login-content {
+    padding: 10px;
+	padding-top: 20px;
+	height: 100%;
+}
+
+.progress-bar-container {
+    min-height: 4px;
+}
+
+#login-app {
+	height: 100%;
+}
+
+.invalid-icon {
+    margin-right: 8px;
+}
+
+.invalid-icon svg {
+    fill: red;
+}
+
+.invalid-email-text-span {
+    font-size: 12px;
+    color: red;
+}
+
+.password-input {
+    margin-top: 20px;
+}
+
+.g-input:required {
+	box-shadow: none;
+}
